@@ -1,0 +1,37 @@
+1. HTTP (Hypertext Transfer Protocol) is a protocol that allows communication between web servers and web clients
+2. URL (Uniform Resource Loader) is an adress that uniquely identifies a resource on the internet
+3. DNS (Domain Name System) is a system that serves as a directory that helps in the navigation of the internet by
+   providing mapping between domain names
+4. A query string is used to declare key value pairs at the end of a url, generally to specify what recources 
+   should be used in that URL
+5. Two commonly used HTTP verbs are GET and POST. The GET method is used to retrieve data from a server but not modify it.
+   The POST method is used to submit and make changes to the server
+6. An HTTP request is a message sent by a client to a server using the HTTP. Includes an HTTP verb, the target url
+   and the HTTP version being used.
+7. An HTTP response is the servers way of communicating the outcome of the HTTP request
+8. An HTTP header is part of an HTTP request that contains additional information about the request or response
+   Some examples I've seen are catch-control and content-type
+9. There is a huge process but the main events that occur when you type a url into  browser is the following:
+    - HTTP request
+    - HTTP response
+    - Page load
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
